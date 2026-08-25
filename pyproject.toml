@@ -30,6 +30,7 @@ target-version = ["py310"]
 [tool.ruff]
 line-length = 88
 target-version = "py310"
+exclude = ["notebooks"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "W"]
@@ -41,3 +42,5 @@ warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = true
 ignore_missing_imports = true
+[project.scripts]
+grid-reliability = "grid_reliability.cli:main"
