@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/devmae180/skye8-ds-alieh-mae/actions/workflows/ci.yml/badge.svg)](https://github.com/devmae180/skye8-ds-alieh-mae/actions/workflows/ci.yml)
 
-A data analysis project for studying electricity outages and weather.
+A data engineering and analysis project for studying electricity grid reliability using feeder, meter, and outage data.
 ## What the project does
 
 The project:
