@@ -7,5 +7,5 @@ __pycache__/
 *.egg-info/
 build/
 dist/
-data/raw/
 data/weather_cache/
+data/raw/
